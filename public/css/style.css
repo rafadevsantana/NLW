@@ -1,94 +1,96 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    
-    height: 100vh;
-    color: white;
-
+  height: 100vh;
+  color: white;
 }
 
-body, input, button, textarea {
-    font: 400 1.8rem/1.2 'Nunito', sans-serif;
-
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1.2 "Nunito", sans-serif;
 }
 
 #page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%)no-repeat;
-    min-height: 100vh;
-    text-align: center;
-    display: flex;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
 }
 
 #container {
-    margin: auto;
-    width: 90%;
+  margin: auto;
+  width: 90%;
 }
-.location, h1, .visit p {
-    height: 16vh;
+.location,
+h1,
+.visit p {
+  height: 16vh;
 }
 
 .visit a {
-    width: 6rem;
-    height: 6rem;
-    background-color: #ffd666;
+  width: 6rem;
+  height: 6rem;
+  background-color: #ffd666;
 
-    border: none;
-    border-radius: 3rem;
+  border: none;
+  border-radius: 3rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin: auto;
+  margin: auto;
 
-    transition-duration: 200ms;
+  transition-duration: 200ms;
 }
 
 .visit a:hover {
-    background-color: #00c7c7;
+  background-color: #00c7c7;
 }
 
 @keyframes up {
-    from {
-        opacity: 0;
-        transform: translateY(16PX);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animation-up {
-    animation-name: up;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
 }
 
 #logo {
-    animation-delay: 50ms;
+  animation-delay: 50ms;
 }
 
 .location {
-    animation-delay: 150ms;
+  animation-delay: 150ms;
 }
 
 #title {
-    animation-delay: 250ms;
+  animation-delay: 250ms;
 }
 
 #section {
-    animation-delay: 350ms;
+  animation-delay: 350ms;
 }
 
 #button {
-    animation-delay: 450ms;
+  animation-delay: 450ms;
 }
