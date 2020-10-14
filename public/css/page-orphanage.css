@@ -1,0 +1,75 @@
+#page-ophanages {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+}
+
+aside {
+    width: clamp(24rem, 25vw, 44rem);
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+    padding: clamp(3rem, 5vw, 8rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside header {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.header h1 {
+     margin-top: 2.4rem;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    line-height: 1.1;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+aside p {
+    margin-top: 2.4rem;
+
+    
+    font-weight: 400;
+    font-size: clamp(1rem, 4vw, 1.9rem);
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+}
+
+aside footer p {
+    margin-top: .8rem;
+}
+
+a.create-orphanage {
+    position: absolute;
+    right: 5rem;
+    bottom: 5.5rem;
+
+    width: 6.4rem;
+    height: 6.4rem;
+    background: #15c3d6;
+    border: 0;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    transition: 200ms;
+}
+
+a.create-orphanage:hover {
+    background: #17d6eb;
+}
+
+#mapid {
+    height: 100%;
+    width: 100%;
+}
