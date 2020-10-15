@@ -18,6 +18,15 @@
   }
 }
 
+@keyframes map {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .animation-up {
   animation-name: up;
   animation-duration: 400ms;
@@ -27,4 +36,10 @@
 .animation-rigth {
   animation-name: rigth;
   animation-duration: 500ms; 
+}
+
+.animation-map {
+  animation-name: map;
+  animation-duration: 1400ms;
+  animation-fill-mode: backwards;
 }
